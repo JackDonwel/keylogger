@@ -14,7 +14,7 @@ This is a secure keylogger implementation with encryption and remote logging cap
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/keylogger.git
+   git clone https://github.com/JackDonwel/keylogger.git
    cd keylogger
 
     Create and activate virtual environment:
