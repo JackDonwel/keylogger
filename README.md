@@ -17,18 +17,16 @@ This is a secure keylogger implementation with encryption and remote logging cap
    git clone https://github.com/JackDonwel/keylogger.git
    cd keylogger
 
-    Create and activate virtual environment:
-    bash
-
-python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-.venv\Scripts\activate    # Windows
-
+Create and activate virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Linux/macOS
+   .venv\Scripts\activate    # Windows
+```
 Install dependencies:
-bash
-
+```bash
     pip install -r requirements.txt
-
+```
 Configuration
 
 Edit keylogger.py with your settings:
@@ -39,10 +37,9 @@ KEY = b"YourSecureKey123456"  # 16/24/32 byte AES key
 IV = b"SecureInitVector"     # 16-byte initialization vector
 
 Usage
-bash
-
+```bash
 python keylogger.py
-
+```
 The program will:
 
     Start logging keystrokes to temporary storage
